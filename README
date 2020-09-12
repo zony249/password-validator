@@ -1,0 +1,20 @@
+Name: Yu, Zong Lin
+ID: 1614934
+Course: CMPUT 274
+Term: Fa20
+Assignment: Assignment 1 -- password generator
+
+Included files
+	- validator.py
+	- README
+
+Before running:
+	- Edit the 'validator.py' file
+	- At the bottom, under the __main__ section, remove the `pass` keyword and add either `generate(<number_of_characters>)` or `validate(<string_of_password_you_want_to_validate>)` to run the validate or generate functions.
+
+Running the program:
+	- in the linux terminal, enter `python3 validator.py`
+
+
+
+
