@@ -10,7 +10,7 @@ Included files
 
 Before running:
 	- Edit the 'validator.py' file
-	- At the bottom, under the __main__ section, remove the `pass` keyword and add either `generate(<number_of_characters>)` or `validate(<string_of_password_you_want_to_validate>)` to run the validate or generate functions.
+	- At the bottom, under the __main__ section, remove the `pass` keyword and add either `generate(<number_of_characters>)` or `validate(<string_of_password_you_want_to_validate>)` to run the validate or generate functions. However, since these functions return values of type string, you can put these functions in print statements to print the output to the console.
 
 Running the program:
 	- in the linux terminal, enter `python3 validator.py`
