@@ -1,4 +1,10 @@
-# PASSWORD VALIDATOR TEMPLATE: REPLACE THIS LINE WITH YOUR FILE HEADER
+# ======================================================
+# Name: Yu, Zong Lin
+# ID: 1614934
+# Course: CMPUT 274
+# Term: Fa20
+# Assignment: Weekly Assignment 1 -- Password Validator
+# =======================================================
 
 from random import randint, random
 
