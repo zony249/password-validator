@@ -1,9 +1,6 @@
 # PASSWORD VALIDATOR TEMPLATE: REPLACE THIS LINE WITH YOUR FILE HEADER
 
-
-
 from random import randint, random
-import numpy as np
 
 def validate(password):
     """ Analyzes an input password to determine if it is "Secure", "Insecure", or "Invalid" based on the assignment description criteria.
@@ -105,10 +102,10 @@ def chance(count_0, count_1, count_2, count_3, n):
         max_element (int): an integer 0 - 3 inclusive used to select the type of character to input next.
 
     """
-    chance_0 = ((n-count_0)/n)**18
-    chance_1 = ((n-count_1)/n)**18
-    chance_2 = ((n-count_2)/n)**18
-    chance_3 = ((n-count_3)/n)**18
+    chance_0 = ((n-count_0)/n)**20
+    chance_1 = ((n-count_1)/n)**20
+    chance_2 = ((n-count_2)/n)**20
+    chance_3 = ((n-count_3)/n)**20
 
     chances = [chance_0, chance_1, chance_2, chance_3]
     for i in range(len(chances)):
